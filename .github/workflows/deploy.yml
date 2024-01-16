@@ -1,7 +1,7 @@
 name: Continous Deployment
 
 on:
-  merge:
+  push:
     branches: [master]
 
 jobs:
