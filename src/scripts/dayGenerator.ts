@@ -1,3 +1,14 @@
 export default function dayGenerator(date = new Date()) {
-  return null;
+  const names = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+  ];
+
+  const dayIndex = date.getDay();
+
+  return names[dayIndex];
 }
