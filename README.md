@@ -8,7 +8,7 @@ The same project as CI/CD basics but coded from scratch instead of forking a sem
 
 The project is too small to have a Product Backlog so I will just list my action plan here:
 
-1. Project setup
+1. Project setup (done 👍)
    1. Install Boilerplate
    1. Add CI filE
    1. Add CD file
