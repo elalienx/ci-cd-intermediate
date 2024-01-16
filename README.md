@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# CI/CD Intermediate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+View result: 
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The same project as CI/CD basics but coded from scratch instead of forking a semi completed project
 
-## Expanding the ESLint configuration
+## Action Plan
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+The project is too small to have a Product Backlog so I will just list my action plan here:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Project setup
+   1. Install Boilerplate
+   1. Add CI filE
+   1. Add CD file
+1. Add day generator
+   1. Open branch `day generator`
+   1. Add first TTD test
+   1. Open pull request (should fail ❌)
+   1. Add missing logic
+   1. Open pull request (should pass ✅)
+   1. Close branch `day generator` (should deploy)
+1. Add result page
+   1. Open branch `day generator`
+   1. Add first TTD test
+   1. Open pull request (should fail ❌)
+   1. Add missing logic
+   1. Open pull request (should pass ✅)
+   1. Close branch `day generator` (should deploy)
