@@ -1,7 +1,5 @@
 # CI/CD Intermediate
 
-View result: 
-
 ## About
 
 The same project as CI/CD basics but coded from scratch instead of forking a semi completed project
