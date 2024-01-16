@@ -1,4 +1,6 @@
+// Project files
 import dayGenerator from "./scripts/dayGenerator";
+import "./styles/style.css";
 
 export default function App() {
   // Properties
@@ -6,8 +8,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>CI/CD Intermediate 🥈</h1>
-      Today is: @{dayName}@
+      <header>
+        <h1>CI/CD Intermediate 🥈</h1>
+        Today is: @{dayName}@
+      </header>
     </div>
   );
 }
